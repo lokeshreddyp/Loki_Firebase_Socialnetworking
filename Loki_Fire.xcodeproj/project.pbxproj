@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0783EB10EB27F56E6BCA906E /* Pods_Loki_Fire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAC7C7902F7DF54370823C5 /* Pods_Loki_Fire.framework */; };
+		103C22EDECEB7C0EE08ED0E6 /* Pods_Loki_FireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F9E06DF6D13C112021507 /* Pods_Loki_FireTests.framework */; };
+		CFEAE1581E5F3F200022E4BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEAE1571E5F3F200022E4BD /* AppDelegate.swift */; };
+		CFEAE15A1E5F3F200022E4BD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEAE1591E5F3F200022E4BD /* SignInVC.swift */; };
+		CFEAE15D1E5F3F200022E4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEAE15B1E5F3F200022E4BD /* Main.storyboard */; };
+		CFEAE15F1E5F3F200022E4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEAE15E1E5F3F200022E4BD /* Assets.xcassets */; };
+		CFEAE1621E5F3F200022E4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEAE1601E5F3F200022E4BD /* LaunchScreen.storyboard */; };
+		CFEAE16D1E5F3F200022E4BD /* Loki_FireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEAE16C1E5F3F200022E4BD /* Loki_FireTests.swift */; };
+		CFEAE1781E5F3F210022E4BD /* Loki_FireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEAE1771E5F3F210022E4BD /* Loki_FireUITests.swift */; };
+		CFEAE1861E5F401D0022E4BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFEAE1851E5F401D0022E4BD /* GoogleService-Info.plist */; };
+		F6D2986DF5FDE5AA57964DDB /* Pods_Loki_FireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7659B9B383239ADEE787437B /* Pods_Loki_FireUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEAE1691E5F3F200022E4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEAE14C1E5F3F200022E4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEAE1531E5F3F200022E4BD;
+			remoteInfo = Loki_Fire;
+		};
+		CFEAE1741E5F3F200022E4BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEAE14C1E5F3F200022E4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEAE1531E5F3F200022E4BD;
+			remoteInfo = Loki_Fire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A56EE6460403EA577D8ED3 /* Pods-Loki_FireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loki_FireUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loki_FireUITests/Pods-Loki_FireUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D8D7B5F1013C2A9BBC1ADAA /* Pods-Loki_FireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loki_FireUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Loki_FireUITests/Pods-Loki_FireUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		502F9E06DF6D13C112021507 /* Pods_Loki_FireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loki_FireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6358259CF077F02A15A35A4E /* Pods-Loki_Fire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loki_Fire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loki_Fire/Pods-Loki_Fire.release.xcconfig"; sourceTree = "<group>"; };
+		7659B9B383239ADEE787437B /* Pods_Loki_FireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loki_FireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAC7C7902F7DF54370823C5 /* Pods_Loki_Fire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loki_Fire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46FCF09D01365E431704BD7 /* Pods-Loki_Fire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loki_Fire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Loki_Fire/Pods-Loki_Fire.debug.xcconfig"; sourceTree = "<group>"; };
+		CFEAE1541E5F3F200022E4BD /* Loki_Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loki_Fire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEAE1571E5F3F200022E4BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFEAE1591E5F3F200022E4BD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		CFEAE15C1E5F3F200022E4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFEAE15E1E5F3F200022E4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEAE1611E5F3F200022E4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFEAE1631E5F3F200022E4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEAE1681E5F3F200022E4BD /* Loki_FireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Loki_FireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEAE16C1E5F3F200022E4BD /* Loki_FireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loki_FireTests.swift; sourceTree = "<group>"; };
+		CFEAE16E1E5F3F200022E4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEAE1731E5F3F200022E4BD /* Loki_FireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Loki_FireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEAE1771E5F3F210022E4BD /* Loki_FireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loki_FireUITests.swift; sourceTree = "<group>"; };
+		CFEAE1791E5F3F210022E4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEAE1851E5F401D0022E4BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4371EF397CFFD5036A38E34 /* Pods-Loki_FireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loki_FireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loki_FireTests/Pods-Loki_FireTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA83C9C18AEC00078BF48745 /* Pods-Loki_FireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loki_FireTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Loki_FireTests/Pods-Loki_FireTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEAE1511E5F3F200022E4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0783EB10EB27F56E6BCA906E /* Pods_Loki_Fire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEAE1651E5F3F200022E4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103C22EDECEB7C0EE08ED0E6 /* Pods_Loki_FireTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEAE1701E5F3F200022E4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D2986DF5FDE5AA57964DDB /* Pods_Loki_FireUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383FFE0224F5B3D44A56E1E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B46FCF09D01365E431704BD7 /* Pods-Loki_Fire.debug.xcconfig */,
+				6358259CF077F02A15A35A4E /* Pods-Loki_Fire.release.xcconfig */,
+				FA83C9C18AEC00078BF48745 /* Pods-Loki_FireTests.debug.xcconfig */,
+				E4371EF397CFFD5036A38E34 /* Pods-Loki_FireTests.release.xcconfig */,
+				4D8D7B5F1013C2A9BBC1ADAA /* Pods-Loki_FireUITests.debug.xcconfig */,
+				02A56EE6460403EA577D8ED3 /* Pods-Loki_FireUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF71BB581E5F422F00317AA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF71BB591E5F423900317AA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CF71BB5A1E5F424200317AA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFEAE1591E5F3F200022E4BD /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CFEAE14B1E5F3F200022E4BD = {
+			isa = PBXGroup;
+			children = (
+				CFEAE1561E5F3F200022E4BD /* Loki_Fire */,
+				CFEAE16B1E5F3F200022E4BD /* Loki_FireTests */,
+				CFEAE1761E5F3F200022E4BD /* Loki_FireUITests */,
+				CFEAE1551E5F3F200022E4BD /* Products */,
+				383FFE0224F5B3D44A56E1E5 /* Pods */,
+				E23F085DECF5E3C498EA9FA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEAE1551E5F3F200022E4BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEAE1541E5F3F200022E4BD /* Loki_Fire.app */,
+				CFEAE1681E5F3F200022E4BD /* Loki_FireTests.xctest */,
+				CFEAE1731E5F3F200022E4BD /* Loki_FireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEAE1561E5F3F200022E4BD /* Loki_Fire */ = {
+			isa = PBXGroup;
+			children = (
+				CF71BB581E5F422F00317AA6 /* Model */,
+				CF71BB591E5F423900317AA6 /* View */,
+				CF71BB5A1E5F424200317AA6 /* Controller */,
+				CFEAE1571E5F3F200022E4BD /* AppDelegate.swift */,
+				CFEAE15B1E5F3F200022E4BD /* Main.storyboard */,
+				CFEAE15E1E5F3F200022E4BD /* Assets.xcassets */,
+				CFEAE1601E5F3F200022E4BD /* LaunchScreen.storyboard */,
+				CFEAE1631E5F3F200022E4BD /* Info.plist */,
+				CFEAE1851E5F401D0022E4BD /* GoogleService-Info.plist */,
+			);
+			path = Loki_Fire;
+			sourceTree = "<group>";
+		};
+		CFEAE16B1E5F3F200022E4BD /* Loki_FireTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEAE16C1E5F3F200022E4BD /* Loki_FireTests.swift */,
+				CFEAE16E1E5F3F200022E4BD /* Info.plist */,
+			);
+			path = Loki_FireTests;
+			sourceTree = "<group>";
+		};
+		CFEAE1761E5F3F200022E4BD /* Loki_FireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEAE1771E5F3F210022E4BD /* Loki_FireUITests.swift */,
+				CFEAE1791E5F3F210022E4BD /* Info.plist */,
+			);
+			path = Loki_FireUITests;
+			sourceTree = "<group>";
+		};
+		E23F085DECF5E3C498EA9FA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EAC7C7902F7DF54370823C5 /* Pods_Loki_Fire.framework */,
+				502F9E06DF6D13C112021507 /* Pods_Loki_FireTests.framework */,
+				7659B9B383239ADEE787437B /* Pods_Loki_FireUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEAE1531E5F3F200022E4BD /* Loki_Fire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEAE17C1E5F3F210022E4BD /* Build configuration list for PBXNativeTarget "Loki_Fire" */;
+			buildPhases = (
+				E086F2128291C3805A351406 /* [CP] Check Pods Manifest.lock */,
+				CFEAE1501E5F3F200022E4BD /* Sources */,
+				CFEAE1511E5F3F200022E4BD /* Frameworks */,
+				CFEAE1521E5F3F200022E4BD /* Resources */,
+				0FF6AA63DBAC3948F1D5FAD7 /* [CP] Embed Pods Frameworks */,
+				05A6E22542A590B52B78CF24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loki_Fire;
+			productName = Loki_Fire;
+			productReference = CFEAE1541E5F3F200022E4BD /* Loki_Fire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEAE1671E5F3F200022E4BD /* Loki_FireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEAE17F1E5F3F210022E4BD /* Build configuration list for PBXNativeTarget "Loki_FireTests" */;
+			buildPhases = (
+				75B919379A0281A4468698DD /* [CP] Check Pods Manifest.lock */,
+				CFEAE1641E5F3F200022E4BD /* Sources */,
+				CFEAE1651E5F3F200022E4BD /* Frameworks */,
+				CFEAE1661E5F3F200022E4BD /* Resources */,
+				BDA746EC435EA58E9017C1CD /* [CP] Embed Pods Frameworks */,
+				B659F994322B4BE70B010DA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEAE16A1E5F3F200022E4BD /* PBXTargetDependency */,
+			);
+			name = Loki_FireTests;
+			productName = Loki_FireTests;
+			productReference = CFEAE1681E5F3F200022E4BD /* Loki_FireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEAE1721E5F3F200022E4BD /* Loki_FireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEAE1821E5F3F210022E4BD /* Build configuration list for PBXNativeTarget "Loki_FireUITests" */;
+			buildPhases = (
+				3552995BBCBCAF761A86D264 /* [CP] Check Pods Manifest.lock */,
+				CFEAE16F1E5F3F200022E4BD /* Sources */,
+				CFEAE1701E5F3F200022E4BD /* Frameworks */,
+				CFEAE1711E5F3F200022E4BD /* Resources */,
+				99FBF72EED15A32C022DEFEF /* [CP] Embed Pods Frameworks */,
+				7C9E14C6700E65479F2E86A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEAE1751E5F3F200022E4BD /* PBXTargetDependency */,
+			);
+			name = Loki_FireUITests;
+			productName = Loki_FireUITests;
+			productReference = CFEAE1731E5F3F200022E4BD /* Loki_FireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEAE14C1E5F3F200022E4BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "LokeshReddy Pothapu";
+				TargetAttributes = {
+					CFEAE1531E5F3F200022E4BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6NQPS8KNZG;
+						ProvisioningStyle = Automatic;
+					};
+					CFEAE1671E5F3F200022E4BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6NQPS8KNZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFEAE1531E5F3F200022E4BD;
+					};
+					CFEAE1721E5F3F200022E4BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6NQPS8KNZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFEAE1531E5F3F200022E4BD;
+					};
+				};
+			};
+			buildConfigurationList = CFEAE14F1E5F3F200022E4BD /* Build configuration list for PBXProject "Loki_Fire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEAE14B1E5F3F200022E4BD;
+			productRefGroup = CFEAE1551E5F3F200022E4BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEAE1531E5F3F200022E4BD /* Loki_Fire */,
+				CFEAE1671E5F3F200022E4BD /* Loki_FireTests */,
+				CFEAE1721E5F3F200022E4BD /* Loki_FireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEAE1521E5F3F200022E4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAE1621E5F3F200022E4BD /* LaunchScreen.storyboard in Resources */,
+				CFEAE15F1E5F3F200022E4BD /* Assets.xcassets in Resources */,
+				CFEAE15D1E5F3F200022E4BD /* Main.storyboard in Resources */,
+				CFEAE1861E5F401D0022E4BD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEAE1661E5F3F200022E4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEAE1711E5F3F200022E4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A6E22542A590B52B78CF24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loki_Fire/Pods-Loki_Fire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FF6AA63DBAC3948F1D5FAD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loki_Fire/Pods-Loki_Fire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3552995BBCBCAF761A86D264 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75B919379A0281A4468698DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C9E14C6700E65479F2E86A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loki_FireUITests/Pods-Loki_FireUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99FBF72EED15A32C022DEFEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loki_FireUITests/Pods-Loki_FireUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B659F994322B4BE70B010DA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loki_FireTests/Pods-Loki_FireTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA746EC435EA58E9017C1CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loki_FireTests/Pods-Loki_FireTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E086F2128291C3805A351406 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEAE1501E5F3F200022E4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAE15A1E5F3F200022E4BD /* SignInVC.swift in Sources */,
+				CFEAE1581E5F3F200022E4BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEAE1641E5F3F200022E4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAE16D1E5F3F200022E4BD /* Loki_FireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEAE16F1E5F3F200022E4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAE1781E5F3F210022E4BD /* Loki_FireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEAE16A1E5F3F200022E4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEAE1531E5F3F200022E4BD /* Loki_Fire */;
+			targetProxy = CFEAE1691E5F3F200022E4BD /* PBXContainerItemProxy */;
+		};
+		CFEAE1751E5F3F200022E4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEAE1531E5F3F200022E4BD /* Loki_Fire */;
+			targetProxy = CFEAE1741E5F3F200022E4BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFEAE15B1E5F3F200022E4BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEAE15C1E5F3F200022E4BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFEAE1601E5F3F200022E4BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEAE1611E5F3F200022E4BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFEAE17A1E5F3F210022E4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFEAE17B1E5F3F210022E4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEAE17D1E5F3F210022E4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46FCF09D01365E431704BD7 /* Pods-Loki_Fire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NQPS8KNZG;
+				INFOPLIST_FILE = Loki_Fire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-fire.Loki-Fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFEAE17E1E5F3F210022E4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6358259CF077F02A15A35A4E /* Pods-Loki_Fire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NQPS8KNZG;
+				INFOPLIST_FILE = Loki_Fire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-fire.Loki-Fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CFEAE1801E5F3F210022E4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA83C9C18AEC00078BF48745 /* Pods-Loki_FireTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6NQPS8KNZG;
+				INFOPLIST_FILE = Loki_FireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-fire.Loki-FireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loki_Fire.app/Loki_Fire";
+			};
+			name = Debug;
+		};
+		CFEAE1811E5F3F210022E4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4371EF397CFFD5036A38E34 /* Pods-Loki_FireTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6NQPS8KNZG;
+				INFOPLIST_FILE = Loki_FireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-fire.Loki-FireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loki_Fire.app/Loki_Fire";
+			};
+			name = Release;
+		};
+		CFEAE1831E5F3F210022E4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8D7B5F1013C2A9BBC1ADAA /* Pods-Loki_FireUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6NQPS8KNZG;
+				INFOPLIST_FILE = Loki_FireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-fire.Loki-FireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Loki_Fire;
+			};
+			name = Debug;
+		};
+		CFEAE1841E5F3F210022E4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A56EE6460403EA577D8ED3 /* Pods-Loki_FireUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6NQPS8KNZG;
+				INFOPLIST_FILE = Loki_FireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-fire.Loki-FireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Loki_Fire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEAE14F1E5F3F200022E4BD /* Build configuration list for PBXProject "Loki_Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEAE17A1E5F3F210022E4BD /* Debug */,
+				CFEAE17B1E5F3F210022E4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEAE17C1E5F3F210022E4BD /* Build configuration list for PBXNativeTarget "Loki_Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEAE17D1E5F3F210022E4BD /* Debug */,
+				CFEAE17E1E5F3F210022E4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEAE17F1E5F3F210022E4BD /* Build configuration list for PBXNativeTarget "Loki_FireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEAE1801E5F3F210022E4BD /* Debug */,
+				CFEAE1811E5F3F210022E4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEAE1821E5F3F210022E4BD /* Build configuration list for PBXNativeTarget "Loki_FireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEAE1831E5F3F210022E4BD /* Debug */,
+				CFEAE1841E5F3F210022E4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEAE14C1E5F3F200022E4BD /* Project object */;
+}

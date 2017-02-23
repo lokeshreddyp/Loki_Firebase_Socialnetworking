@@ -1,0 +1,6 @@
+framework module Pods_Loki_Fire {
+  umbrella header "Pods-Loki_Fire-umbrella.h"
+
+  export *
+  module * { export * }
+}

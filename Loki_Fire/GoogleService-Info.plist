@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>955182200453-7me9pfa0qlh5s9prrbb0n3nttbjsr762.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.955182200453-7me9pfa0qlh5s9prrbb0n3nttbjsr762</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDg6wnOgXNVAOQ7cpxnu1VWuZ8klU_6IEU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>955182200453</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.loki-fire.Loki-Fire</string>
+	<key>PROJECT_ID</key>
+	<string>lokionfire-4cdff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lokionfire-4cdff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:955182200453:ios:0f61870888250a43</string>
+	<key>DATABASE_URL</key>
+	<string>https://lokionfire-4cdff.firebaseio.com</string>
+</dict>
+</plist>
